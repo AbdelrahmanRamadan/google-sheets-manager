@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "es5",
+    	"allowUnreachableCode": true,
+    	"strict": true,
+    	"declaration": true,
+    	"declarationDir": "./dist",
+    	"pretty": true,
+    	"removeComments": true,
+    	"sourceMap": true,
+    	"skipLibCheck": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

@@ -2,9 +2,14 @@
   "name": "google-sheets-manager",
   "version": "1.0.0",
   "description": "Google Sheets API v4 wrapper Node.js module for reading and manipulating Google Spreadsheets.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint": "tslint {src,tests}/**/*.ts --format stylish",
+    "docs": "typedoc --out ./docs ./src --mode modules --module commonjs",
+    "markdown-docs": "typedoc --theme markdown --out ./markdown-docs ./src --mode modules --module commonjs",
+    "test": "mocha --reporter spec --compilers ts:ts-node/register 'tests/**/*.test.ts'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/AbdelrahmanRamadan/google-sheets-manager/issues"
   },
-  "homepage": "https://github.com/AbdelrahmanRamadan/google-sheets-manager#readme"
+  "homepage": "https://github.com/AbdelrahmanRamadan/google-sheets-manager#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "typedoc": "^0.8.0",
+    "typedoc-plugin-markdown": "^1.0.8",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^21.3.0"
+  }
 }
