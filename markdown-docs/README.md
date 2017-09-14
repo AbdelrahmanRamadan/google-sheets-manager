@@ -5,7 +5,7 @@ Google Sheets API v4 wrapper Node.js module for reading and manipulating Google 
 
 ## Index
 
-### External modules
+### Modules
 
 * ["api"](modules/_api_.md)
 * ["auth-classes/auth-class"](modules/_auth_classes_auth_class_.md)

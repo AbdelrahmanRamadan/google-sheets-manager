@@ -6,10 +6,12 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "test": "mocha --timeout 15000 --reporter spec --compilers ts:ts-node/register 'tests/**/*.test.ts'",
     "lint": "tslint {src,tests}/**/*.ts --format stylish",
-    "docs": "typedoc --out ./docs ./src --mode modules --module commonjs",
-    "markdown-docs": "typedoc --theme markdown --out ./markdown-docs ./src --mode modules --module commonjs",
-    "test": "mocha --reporter spec --compilers ts:ts-node/register 'tests/**/*.test.ts'"
+    "prepare": "npm run lint && npm run build && npm run test && docs",
+    "docs": "npm run html-docs && npm run markdown-docs",
+    "html-docs": "typedoc --out ./docs ./src --mode modules --module commonjs",
+    "markdown-docs": "typedoc --theme markdown --out ./markdown-docs ./src --mode modules --module commonjs"
   },
   "repository": {
     "type": "git",

@@ -10,9 +10,9 @@
 
 ### «Optional» range
 
-**●  range**:  *[OrArray](../modules/_utils_type_alias_.md#orarray)[IColRange](_utils_type_alias_.icolrange.md)* 
+**●  range**:  *[IColRange](_utils_type_alias_.icolrange.md)* 
 
-*Defined in utils/type_alias.ts:49*
+*Defined in [utils/type_alias.ts:54](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L54)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  sheetTitle**:  *`undefined`⎮`string`* 
 
-*Defined in utils/type_alias.ts:50*
+*Defined in [utils/type_alias.ts:55](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L55)*
 
 
 

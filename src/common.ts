@@ -71,8 +71,7 @@ export class Common {
 			spreadsheetId: this.spreadsheetId,
 			fields: INFO_FIELDS,
 		}, (err: Error, res: ISpreadsheetInfo) => {
-
-			if (!this.sheetId) {
+			if (err || !this.sheetId) {
 				return callback(err, res);
 			}
 

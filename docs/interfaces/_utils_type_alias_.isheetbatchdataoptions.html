@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ICellIndex | google-sheets-manager</title>
+	<title>ISheetBatchDataOptions | google-sheets-manager</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -59,10 +59,10 @@
 					<a href="../modules/_utils_type_alias_.html">&quot;utils/type_alias&quot;</a>
 				</li>
 				<li>
-					<a href="_utils_type_alias_.icellindex.html">ICellIndex</a>
+					<a href="_utils_type_alias_.isheetbatchdataoptions.html">ISheetBatchDataOptions</a>
 				</li>
 			</ul>
-			<h1>Interface ICellIndex</h1>
+			<h1>Interface ISheetBatchDataOptions</h1>
 		</div>
 	</div>
 </header>
@@ -73,7 +73,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">ICellIndex</span>
+						<span class="target">ISheetBatchDataOptions</span>
 					</li>
 				</ul>
 			</section>
@@ -84,8 +84,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_utils_type_alias_.icellindex.html#colindex" class="tsd-kind-icon">col<wbr>Index</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_utils_type_alias_.icellindex.html#rowindex" class="tsd-kind-icon">row<wbr>Index</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_utils_type_alias_.isheetbatchdataoptions.html#majordimension" class="tsd-kind-icon">major<wbr>Dimension</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_utils_type_alias_.isheetbatchdataoptions.html#ranges" class="tsd-kind-icon">ranges</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_utils_type_alias_.isheetbatchdataoptions.html#sheettitle" class="tsd-kind-icon">sheet<wbr>Title</a></li>
 							</ul>
 						</section>
 					</div>
@@ -94,22 +95,32 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="colindex" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> col<wbr>Index</h3>
-					<div class="tsd-signature tsd-kind-icon">col<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<a name="majordimension" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> major<wbr>Dimension</h3>
+					<div class="tsd-signature tsd-kind-icon">major<wbr>Dimension<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"ROWS"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"COLUMNS"</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L7">utils/type_alias.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L71">utils/type_alias.ts:71</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="rowindex" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> row<wbr>Index</h3>
-					<div class="tsd-signature tsd-kind-icon">row<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<a name="ranges" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ranges</h3>
+					<div class="tsd-signature tsd-kind-icon">ranges<span class="tsd-signature-symbol">:</span> <a href="_utils_type_alias_.isheetrange.html" class="tsd-signature-type">ISheetRange</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L6">utils/type_alias.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L70">utils/type_alias.ts:70</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sheettitle" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> sheet<wbr>Title</h3>
+					<div class="tsd-signature tsd-kind-icon">sheet<wbr>Title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L72">utils/type_alias.ts:72</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -158,21 +169,9 @@
 					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 						<a href="_utils_type_alias_.ibatchgetoptions.html" class="tsd-kind-icon">IBatch<wbr>Get<wbr>Options</a>
 					</li>
-				</ul>
-				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-external-module">
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 						<a href="_utils_type_alias_.icellindex.html" class="tsd-kind-icon">ICell<wbr>Index</a>
-						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_utils_type_alias_.icellindex.html#colindex" class="tsd-kind-icon">col<wbr>Index</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_utils_type_alias_.icellindex.html#rowindex" class="tsd-kind-icon">row<wbr>Index</a>
-							</li>
-						</ul>
 					</li>
-				</ul>
-				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 						<a href="_utils_type_alias_.icolbatchdataoptions.html" class="tsd-kind-icon">ICol<wbr>Batch<wbr>Data<wbr>Options</a>
 					</li>
@@ -200,9 +199,24 @@
 					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 						<a href="_utils_type_alias_.iserviceaccountcreds.html" class="tsd-kind-icon">IService<wbr>Account<wbr>Creds</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-external-module">
 						<a href="_utils_type_alias_.isheetbatchdataoptions.html" class="tsd-kind-icon">ISheet<wbr>Batch<wbr>Data<wbr>Options</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_utils_type_alias_.isheetbatchdataoptions.html#majordimension" class="tsd-kind-icon">major<wbr>Dimension</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_utils_type_alias_.isheetbatchdataoptions.html#ranges" class="tsd-kind-icon">ranges</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_utils_type_alias_.isheetbatchdataoptions.html#sheettitle" class="tsd-kind-icon">sheet<wbr>Title</a>
+							</li>
+						</ul>
 					</li>
+				</ul>
+				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-external-module">
 						<a href="_utils_type_alias_.isheetdataoptions.html" class="tsd-kind-icon">ISheet<wbr>Data<wbr>Options</a>
 					</li>

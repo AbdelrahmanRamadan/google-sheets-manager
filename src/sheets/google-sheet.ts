@@ -1,6 +1,13 @@
 import { Common } from "../common";
 import { IAuthClass } from "../auth-classes/auth-class";
-import { ISheetRange, ISheetIdentifiers, Callback, ISheetDataOptions, NonStrict, OrArray } from "../utils/type_alias";
+import {
+	ISheetRange,
+	ISheetIdentifiers,
+	Callback,
+	ISheetDataOptions,
+	ISheetBatchDataOptions,
+	NonStrict,
+} from "../utils/type_alias";
 import * as utils from "../utils/utils";
 
 export class GoogleSheet extends Common {
@@ -8,20 +15,19 @@ export class GoogleSheet extends Common {
 		super(authClass, spreadsheetId, sheetId);
 	}
 
-	public getData(
-		options: ISheetDataOptions | Callback<OrArray<string[][]>> = {},
-		callback: Callback<OrArray<string[][]>> = utils.noop,
+	public getBatchData(
+		options: ISheetBatchDataOptions | Callback<string[][][]> = {},
+		callback: Callback<string[][][]> = utils.noop,
 	): void {
 		if (typeof options === "function") {
 			callback = options;
 			options = {};
 		}
-		options.range || (options.range = {});
+		let {ranges, sheetTitle, ...params} = options;
+		ranges || (ranges = [{}]);
 
-		const {range, sheetTitle, ...params} = options;
-		const ranges = utils.forceArray(range);
 		if (ranges.length === 0) {
-			return callback(null);
+			return callback(null, []);
 		}
 
 		const batchGet = (err: NonStrict<Error>, res: ISheetIdentifiers) => {
@@ -29,50 +35,94 @@ export class GoogleSheet extends Common {
 				return callback(err);
 			}
 
-			const A1notations = ranges.map((elem) => utils.getA1Notation({
+			const A1notations = (ranges as ISheetRange[]).map((elem) => utils.getA1Notation({
 				...elem,
 				sheetTitle: res.sheetTitle,
 			}));
 
 			this.api.valuesBatchGet({
-				ranges: A1notations,
 				spreadsheetId: this.spreadsheetId,
-				...options,
-			}, callback);
+				...params,
+				ranges: A1notations,
+			}, (apiError: Error, apiRes: any) => {
+				if (apiError) {
+					return callback(apiError);
+				}
+				// callback(null, isRangeArr ? apiRes.valueRanges.map((elem: any) => elem.values) : apiRes.valueRanges[0].values);
+				callback(null, apiRes.valueRanges.map((elem: any) => elem.values));
+
+			});
 		};
 
-		if (options.sheetTitle) {
+		if (sheetTitle) {
 			return batchGet(null, {
 				sheetId: this.sheetId,
-				sheetTitle: options.sheetTitle,
+				sheetTitle,
 			});
 		}
 
 		this.getSheetTitle(batchGet);
 	}
 
-	public setData(
-		data: OrArray<NonStrict<string>[][]>,
-		options: ISheetDataOptions | Callback<OrArray<any>> = {},
-		callback: Callback<OrArray<any>> = utils.noop,
+	public getData(
+		options: ISheetDataOptions | Callback<string[][]> = {},
+		callback: Callback<string[][]> = utils.noop,
 	): void {
 		if (typeof options === "function") {
 			callback = options;
 			options = {};
 		}
-		options.range || (options.range = {});
+		let {range, sheetTitle, ...params} = options;
+		range || (range = {});
 
-		const {range, sheetTitle, ...params} = options as ISheetDataOptions;
-		const isRangeArr: boolean = Array.isArray(range);
-		const isDataArr: boolean = Array.isArray(data[0][0]);
+		const get = (err: NonStrict<Error>, res: ISheetIdentifiers) => {
+			if (err) {
+				return callback(err);
+			}
 
-		if (isRangeArr !== isDataArr || (isRangeArr && (range as ISheetRange[]).length !== data.length)) {
-			return callback(new Error("Range and Data should be consistent!"));
+			this.api.valuesGet({
+				spreadsheetId: this.spreadsheetId,
+				...params,
+				range: utils.getA1Notation({
+					...range,
+					sheetTitle: res.sheetTitle,
+				}),
+			}, (apiError: Error, apiRes: any) => {
+				if (apiError) {
+					return callback(apiError);
+				}
+				callback(null, apiRes.values);
+			});
+		};
+
+		if (sheetTitle) {
+			return get(null, {
+				sheetId: this.sheetId,
+				sheetTitle,
+			});
 		}
 
-		const ranges = utils.forceArray(range);
+		this.getSheetTitle(get);
+	}
+
+	public setBatchData(
+		data: NonStrict<string>[][][],
+		options: ISheetBatchDataOptions | Callback<any> = {},
+		callback: Callback<any> = utils.noop,
+	): void {
+		if (typeof options === "function") {
+			callback = options;
+			options = {};
+		}
+		let {ranges, sheetTitle, ...params} = options;
+		ranges || (ranges = [{}]);
+
+		if (ranges.length !== data.length) {
+			return callback(new Error("Range and Data should be of the same length!"));
+		}
+
 		if (ranges.length === 0) {
-			return callback(null);
+			return callback(null, []);
 		}
 
 		const batchUpdate = (err: NonStrict<Error>, res: ISheetIdentifiers) => {
@@ -84,10 +134,10 @@ export class GoogleSheet extends Common {
 			for (let i = 0; i < data.length; ++i) {
 				resourceData.push({
 					range: utils.getA1Notation({
-						...ranges[i],
+						...(ranges as ISheetRange[])[i],
 						sheetTitle: res.sheetTitle,
 					}),
-					majorDimension: params.majorDimension,
+					...params,
 					values: data[i],
 				});
 			}
@@ -101,13 +151,54 @@ export class GoogleSheet extends Common {
 			}, callback);
 		};
 
-		if (options.sheetTitle) {
+		if (sheetTitle) {
 			return batchUpdate(null, {
 				sheetId: this.sheetId,
-				sheetTitle: options.sheetTitle,
+				sheetTitle,
 			});
 		}
 
 		this.getSheetTitle(batchUpdate);
+	}
+
+	public setData(
+		data: NonStrict<string>[][],
+		options: ISheetDataOptions | Callback<any> = {},
+		callback: Callback<any> = utils.noop,
+	): void {
+		if (typeof options === "function") {
+			callback = options;
+			options = {};
+		}
+		let {range, sheetTitle, ...params} = options;
+		range || (range = {});
+
+		const update = (err: NonStrict<Error>, res: ISheetIdentifiers) => {
+			if (err) {
+				return callback(err);
+			}
+
+			this.api.valuesUpdate({
+				spreadsheetId: this.spreadsheetId,
+				valueInputOption: "USER_ENTERED",
+				range: utils.getA1Notation({
+					...range,
+					sheetTitle: res.sheetTitle,
+				}),
+				resource: {
+					...params,
+					values: data,
+				},
+			}, callback);
+		};
+
+		if (sheetTitle) {
+			return update(null, {
+				sheetId: this.sheetId,
+				sheetTitle,
+			});
+		}
+
+		this.getSheetTitle(update);
 	}
 }

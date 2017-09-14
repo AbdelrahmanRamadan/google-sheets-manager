@@ -1,5 +1,5 @@
 import { IRange } from "./type_alias";
-
+import { MAX_SHEET_COLUMNS } from "../constants";
 // converts cell_index to its alphabetical order in the google sheet (ex. 28 => 'AB')
 export const numToAlpha = function fNumToAlpha(num: number): string {
 	let str = "";
@@ -19,17 +19,17 @@ export const alphaToNum = function fAlphaToNum(str: string): number {
 };
 
 export const getA1Notation = function fGetA1Notation(range: IRange): string {
-	const stRow = range.startRow || "";
-	const stCol = numToAlpha(range.startCol || 0);
+	const stRow = range.startRow || 1;
+	const stCol = numToAlpha(range.startCol || 1);
 
 	const enRow = range.endRow || "";
-	const enCol = numToAlpha(range.endCol || 0);
+	const enCol = numToAlpha(range.endCol || MAX_SHEET_COLUMNS);
 
 	const title = range.sheetTitle || "";
 	let str = `${title}!${stCol}${stRow}:${enCol}${enRow}`;
 
-	if (str[str.length - 1] === ":" || str[str.length - 1] === "!") {
-		str = str.slice(0, str.length - 1);
+	if (str[str.length - 1] === ":") {
+		str = str.slice(0, str.length - 1 - Number(str[str.length - 2] === "!"));
 	}
 	if (str[0] === "!") {
 		str = str.slice(1, str.length);

@@ -520,11 +520,11 @@ export class API {
 	 * @example
 	 * <pre><code>
 	 * const api = new API(authClass);
-	 * api.update({
+	 * api.valuesUpdate({
 	 * 	spreadsheetId: "<spreadsheetId>", // Update placeholder value.
-	 * 	range: "",	// Update placeholder value.
+	 * 	range: "Sheet1!A1:E1",
+	 * 	valueInputOption: "USER_ENTERED",
 	 * 	resource: {
-	 * 		range: "Sheet1!A1:E1",
 	 * 		majorDimension: "ROWS",
 	 * 		values: [
 	 * 			["Data", 123.45, true, "=MAX(D2:D4)", "10"]

@@ -12,7 +12,7 @@
 
 **●  sheetId**:  *`number`* 
 
-*Defined in utils/type_alias.ts:92*
+*Defined in [utils/type_alias.ts:114](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L114)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  sheetTitle**:  *`string`* 
 
-*Defined in utils/type_alias.ts:93*
+*Defined in [utils/type_alias.ts:115](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L115)*
 
 
 

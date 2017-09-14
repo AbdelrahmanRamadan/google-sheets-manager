@@ -12,7 +12,7 @@
 
 **●  endCol**:  *`undefined`⎮`number`* 
 
-*Defined in utils/type_alias.ts:17*
+*Defined in [utils/type_alias.ts:17](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L17)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  startCol**:  *`undefined`⎮`number`* 
 
-*Defined in utils/type_alias.ts:16*
+*Defined in [utils/type_alias.ts:16](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L16)*
 
 
 

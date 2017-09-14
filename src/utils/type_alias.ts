@@ -41,23 +41,45 @@ export interface IRange {
 }
 
 export interface IRowDataOptions {
-	range?: OrArray<IRowRange>;
+	range?: IRowRange;
+	sheetTitle?: string;
+}
+
+export interface IRowBatchDataOptions {
+	ranges?: IRowRange[];
 	sheetTitle?: string;
 }
 
 export interface IColDataOptions {
-	range?: OrArray<IColRange>;
+	range?: IColRange;
+	sheetTitle?: string;
+}
+
+export interface IColBatchDataOptions {
+	ranges?: IColRange[];
 	sheetTitle?: string;
 }
 
 export interface ISheetDataOptions {
-	range?: OrArray<ISheetRange>;
+	range?: ISheetRange;
+	majorDimension?: "ROWS" | "COLUMNS";
+	sheetTitle?: string;
+}
+
+export interface ISheetBatchDataOptions {
+	ranges?: ISheetRange[];
 	majorDimension?: "ROWS" | "COLUMNS";
 	sheetTitle?: string;
 }
 
 export interface ISpreadsheetDataOptions {
-	range?: OrArray<ISpreadSheetRange>;
+	range?: ISpreadSheetRange;
+	majorDimension?: "ROWS" | "COLUMNS";
+	sheetTitle?: string | string[];
+}
+
+export interface ISpreadsheetBatchDataOptions {
+	ranges?: ISpreadSheetRange[];
 	majorDimension?: "ROWS" | "COLUMNS";
 	sheetTitle?: string | string[];
 }
