@@ -94,10 +94,10 @@ __Setup Instructions__
 
 1. Go to the [Google Developers Console](https://console.developers.google.com/project)
 2. Select your project or create a new one (and then select it)
-3. Enable the Drive API for your project
+3. Enable the Sheets API for your project
 	- In the sidebar on the left, expand __APIs & auth__ > __APIs__
-	- Search for "drive"
-	- Click on "Drive API"
+	- Search for "sheets"
+	- Click on "Sheets API"
 	- click the blue "Enable API" button
 4. Create a service account for your project
 	- In the sidebar on the left, expand __APIs & auth__ > __Credentials__
