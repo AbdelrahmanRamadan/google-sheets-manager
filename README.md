@@ -2,6 +2,11 @@
 # Google Sheets Manager (TypeScript)
 Google Sheets API v4 abstracted TypeScript modules for reading and manipulating Google Spreadsheets using service account access.
 
+## Modules (WIKI)
+
+### ([google-sheets-manager wiki](http://gsheets-manager.bitballoon.com/))
+Modules and code components breakdown and documentation on the wiki
+
 ## Installation
 
 [![NPM](https://nodei.co/npm/google-sheets-manager.png)](https://nodei.co/npm/google-sheets-manager/)
