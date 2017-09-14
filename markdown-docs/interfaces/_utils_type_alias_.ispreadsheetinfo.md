@@ -12,7 +12,7 @@
 
 **●  properties**:  *object* 
 
-*Defined in [utils/type_alias.ts:97](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L97)*
+*Defined in [utils/type_alias.ts:97](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L97)*
 
 
 #### Type declaration
@@ -33,7 +33,7 @@ ___
 
 **●  sheets**:  *[ISheetInfo](_utils_type_alias_.isheetinfo.md)[]* 
 
-*Defined in [utils/type_alias.ts:98](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L98)*
+*Defined in [utils/type_alias.ts:98](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L98)*
 
 
 
@@ -47,7 +47,7 @@ ___
 
 **●  spreadsheetId**:  *`undefined`⎮`string`* 
 
-*Defined in [utils/type_alias.ts:95](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L95)*
+*Defined in [utils/type_alias.ts:95](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L95)*
 
 
 
@@ -61,7 +61,7 @@ ___
 
 **●  spreadsheetUrl**:  *`undefined`⎮`string`* 
 
-*Defined in [utils/type_alias.ts:96](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L96)*
+*Defined in [utils/type_alias.ts:96](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L96)*
 
 
 

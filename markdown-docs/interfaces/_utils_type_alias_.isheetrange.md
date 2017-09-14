@@ -12,7 +12,7 @@
 
 **●  endCol**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:24](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L24)*
+*Defined in [utils/type_alias.ts:24](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L24)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  endRow**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:22](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L22)*
+*Defined in [utils/type_alias.ts:22](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L22)*
 
 
 
@@ -40,7 +40,7 @@ ___
 
 **●  startCol**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:23](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L23)*
+*Defined in [utils/type_alias.ts:23](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L23)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  startRow**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:21](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L21)*
+*Defined in [utils/type_alias.ts:21](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/type_alias.ts#L21)*
 
 
 

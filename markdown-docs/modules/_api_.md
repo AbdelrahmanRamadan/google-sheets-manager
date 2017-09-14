@@ -25,7 +25,7 @@
 
 **●  googlesheets**:  *`any`*  =  google.sheets("v4")
 
-*Defined in [api.ts:13](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L13)*
+*Defined in [api.ts:13](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/api.ts#L13)*
 
 
 

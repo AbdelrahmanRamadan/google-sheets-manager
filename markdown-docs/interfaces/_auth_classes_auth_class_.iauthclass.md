@@ -19,7 +19,7 @@
 
 
 
-*Defined in [auth-classes/auth-class.ts:15](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/auth-classes/auth-class.ts#L15)*
+*Defined in [auth-classes/auth-class.ts:15](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/auth-classes/auth-class.ts#L15)*
 
 
 
@@ -50,7 +50,7 @@ ___
 
 
 
-*Defined in [auth-classes/auth-class.ts:16](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/auth-classes/auth-class.ts#L16)*
+*Defined in [auth-classes/auth-class.ts:16](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/auth-classes/auth-class.ts#L16)*
 
 
 

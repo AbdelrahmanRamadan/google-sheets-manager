@@ -31,7 +31,7 @@
 
 
 
-*Defined in [utils/utils.ts:13](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L13)*
+*Defined in [utils/utils.ts:13](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L13)*
 
 
 
@@ -62,7 +62,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:77](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L77)*
+*Defined in [utils/utils.ts:77](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L77)*
 
 
 
@@ -94,7 +94,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:48](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L48)*
+*Defined in [utils/utils.ts:48](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L48)*
 
 
 
@@ -125,7 +125,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:41](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L41)*
+*Defined in [utils/utils.ts:41](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L41)*
 
 
 
@@ -158,7 +158,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:21](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L21)*
+*Defined in [utils/utils.ts:21](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L21)*
 
 
 
@@ -189,7 +189,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:85](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L85)*
+*Defined in [utils/utils.ts:85](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L85)*
 
 
 
@@ -221,7 +221,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:4](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L4)*
+*Defined in [utils/utils.ts:4](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L4)*
 
 
 
@@ -252,7 +252,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:70](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L70)*
+*Defined in [utils/utils.ts:70](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L70)*
 
 
 
@@ -283,7 +283,7 @@ ___
 
 
 
-*Defined in [utils/utils.ts:58](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/utils.ts#L58)*
+*Defined in [utils/utils.ts:58](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/utils/utils.ts#L58)*
 
 
 

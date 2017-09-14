@@ -25,7 +25,7 @@
 
 **●  ALL_SHEET_RANGE**:  *"!A1:ZZZ"*  = "!A1:ZZZ"
 
-*Defined in [constants.ts:1](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/constants.ts#L1)*
+*Defined in [constants.ts:1](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/constants.ts#L1)*
 
 
 
@@ -39,7 +39,7 @@ ___
 
 **●  FIRST_COLUMN_RANGE**:  *"!A:A"*  = "!A:A"
 
-*Defined in [constants.ts:3](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/constants.ts#L3)*
+*Defined in [constants.ts:3](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/constants.ts#L3)*
 
 
 
@@ -58,7 +58,7 @@ ___
 	"sheets.properties(sheetId,title,index,gridProperties(rowCount,columnCount))",
 ].join(",")
 
-*Defined in [constants.ts:7](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/constants.ts#L7)*
+*Defined in [constants.ts:7](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/constants.ts#L7)*
 
 
 
@@ -72,7 +72,7 @@ ___
 
 **●  MAX_SHEET_COLUMNS**:  *`18278`*  = 18278
 
-*Defined in [constants.ts:4](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/constants.ts#L4)*
+*Defined in [constants.ts:4](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/constants.ts#L4)*
 
 
 
@@ -86,7 +86,7 @@ ___
 
 **●  SHEET_HEADER_RANGE**:  *"!1:1"*  = "!1:1"
 
-*Defined in [constants.ts:2](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/constants.ts#L2)*
+*Defined in [constants.ts:2](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/constants.ts#L2)*
 
 
 
@@ -100,7 +100,7 @@ ___
 
 **●  SHEET_TITLE_FIELD**:  *"sheets.properties.title"*  = "sheets.properties.title"
 
-*Defined in [constants.ts:6](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/constants.ts#L6)*
+*Defined in [constants.ts:6](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/ddca908/src/constants.ts#L6)*
 
 
 
