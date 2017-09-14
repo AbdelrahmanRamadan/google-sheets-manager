@@ -12,7 +12,7 @@
 
 **●  colIndex**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:7](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L7)*
+*Defined in [utils/type_alias.ts:7](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L7)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  rowIndex**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:6](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L6)*
+*Defined in [utils/type_alias.ts:6](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L6)*
 
 
 

@@ -22,8 +22,8 @@ var creds = require("./client_secret.json");
 var ServiceAccount = googlesheets.ServiceAccount;
 var GoogleSheet = googlesheets.GoogleSheet;
 
-const GOOGLE_SPREADSHEETID = "1_CioU4zMQ_oYM1w5zrpCUCp0YPY8nP0piFa-Kr2YP_U";
-const GOOGLE_SHEETID = 1063280134;
+const GOOGLE_SPREADSHEETID = ''; // update placeholder value
+const GOOGLE_SHEETID = 0; // update placeholder value
 
 var authClass = new ServiceAccount(creds);
 var sheetAPI = new GoogleSheet(authClass, GOOGLE_SPREADSHEETID, GOOGLE_SHEETID);

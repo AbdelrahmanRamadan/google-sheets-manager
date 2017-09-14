@@ -12,7 +12,7 @@
 
 **●  range**:  *[IColRange](_utils_type_alias_.icolrange.md)* 
 
-*Defined in [utils/type_alias.ts:54](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L54)*
+*Defined in [utils/type_alias.ts:54](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L54)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  sheetTitle**:  *`undefined`⎮`string`* 
 
-*Defined in [utils/type_alias.ts:55](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L55)*
+*Defined in [utils/type_alias.ts:55](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L55)*
 
 
 

@@ -12,7 +12,7 @@
 
 **●  properties**:  *object* 
 
-*Defined in [utils/type_alias.ts:102](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L102)*
+*Defined in [utils/type_alias.ts:102](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L102)*
 
 
 #### Type declaration

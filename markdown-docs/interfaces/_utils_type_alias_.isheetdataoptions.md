@@ -12,7 +12,7 @@
 
 **●  majorDimension**:  *"ROWS"⎮"COLUMNS"* 
 
-*Defined in [utils/type_alias.ts:65](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L65)*
+*Defined in [utils/type_alias.ts:65](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L65)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  range**:  *[ISheetRange](_utils_type_alias_.isheetrange.md)* 
 
-*Defined in [utils/type_alias.ts:64](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L64)*
+*Defined in [utils/type_alias.ts:64](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L64)*
 
 
 
@@ -40,7 +40,7 @@ ___
 
 **●  sheetTitle**:  *`undefined`⎮`string`* 
 
-*Defined in [utils/type_alias.ts:66](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L66)*
+*Defined in [utils/type_alias.ts:66](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L66)*
 
 
 

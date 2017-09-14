@@ -12,7 +12,7 @@
 
 **●  ranges**:  *[IRowRange](_utils_type_alias_.irowrange.md)[]* 
 
-*Defined in [utils/type_alias.ts:49](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L49)*
+*Defined in [utils/type_alias.ts:49](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L49)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  sheetTitle**:  *`undefined`⎮`string`* 
 
-*Defined in [utils/type_alias.ts:50](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L50)*
+*Defined in [utils/type_alias.ts:50](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/utils/type_alias.ts#L50)*
 
 
 

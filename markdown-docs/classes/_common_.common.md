@@ -50,7 +50,7 @@
 
 
 
-*Defined in [common.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L18)*
+*Defined in [common.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L18)*
 
 
 
@@ -80,7 +80,7 @@
 
 **●  api**:  *[API](_api_.api.md)* 
 
-*Defined in [common.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L18)*
+*Defined in [common.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L18)*
 
 
 
@@ -94,7 +94,7 @@ ___
 
 **●  colIndex**:  *[NonStrict](../modules/_utils_type_alias_.md#nonstrict)`number`* 
 
-*Defined in [common.ts:16](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L16)*
+*Defined in [common.ts:16](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L16)*
 
 
 
@@ -108,7 +108,7 @@ ___
 
 **●  dimension**:  *[NonStrict](../modules/_utils_type_alias_.md#nonstrict)"ROW"⎮"COLUMN"* 
 
-*Defined in [common.ts:17](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L17)*
+*Defined in [common.ts:17](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L17)*
 
 
 
@@ -122,7 +122,7 @@ ___
 
 **●  rowIndex**:  *`undefined`⎮`number`* 
 
-*Defined in [common.ts:24](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L24)*
+*Defined in [common.ts:24](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L24)*
 
 
 
@@ -136,7 +136,7 @@ ___
 
 **●  sheetId**:  *`undefined`⎮`number`* 
 
-*Defined in [common.ts:23](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L23)*
+*Defined in [common.ts:23](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L23)*
 
 
 
@@ -150,7 +150,7 @@ ___
 
 **●  spreadsheetId**:  *`string`* 
 
-*Defined in [common.ts:22](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L22)*
+*Defined in [common.ts:22](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L22)*
 
 
 
@@ -169,7 +169,7 @@ ___
 
 
 
-*Defined in [common.ts:69](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L69)*
+*Defined in [common.ts:69](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L69)*
 
 
 
@@ -200,7 +200,7 @@ ___
 
 
 
-*Defined in [common.ts:44](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/common.ts#L44)*
+*Defined in [common.ts:44](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/common.ts#L44)*
 
 
 

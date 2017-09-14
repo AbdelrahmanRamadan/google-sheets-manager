@@ -46,7 +46,7 @@
 
 
 
-*Defined in [api.ts:21](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L21)*
+*Defined in [api.ts:21](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L21)*
 
 
 *__name__*: constructor
@@ -75,7 +75,7 @@
 
 **●  authClass**:  *[IAuthClass](../interfaces/_auth_classes_auth_class_.iauthclass.md)* 
 
-*Defined in [api.ts:26](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L26)*
+*Defined in [api.ts:26](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L26)*
 
 
 
@@ -94,7 +94,7 @@ ___
 
 
 
-*Defined in [api.ts:132](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L132)*
+*Defined in [api.ts:132](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L132)*
 
 
 *__name__*: batchUpdate
@@ -163,7 +163,7 @@ ___
 
 
 
-*Defined in [api.ts:189](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L189)*
+*Defined in [api.ts:189](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L189)*
 
 
 *__name__*: copyTo
@@ -231,7 +231,7 @@ ___
 
 
 
-*Defined in [api.ts:71](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L71)*
+*Defined in [api.ts:71](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L71)*
 
 
 *__name__*: get
@@ -293,7 +293,7 @@ ___
 
 
 
-*Defined in [api.ts:241](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L241)*
+*Defined in [api.ts:241](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L241)*
 
 
 *__name__*: batchClear
@@ -357,7 +357,7 @@ ___
 
 
 
-*Defined in [api.ts:304](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L304)*
+*Defined in [api.ts:304](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L304)*
 
 
 *__name__*: batchGet
@@ -427,7 +427,7 @@ ___
 
 
 
-*Defined in [api.ts:368](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L368)*
+*Defined in [api.ts:368](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L368)*
 
 
 *__name__*: batchUpdate
@@ -498,7 +498,7 @@ ___
 
 
 
-*Defined in [api.ts:417](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L417)*
+*Defined in [api.ts:417](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L417)*
 
 
 *__name__*: clear
@@ -562,7 +562,7 @@ ___
 
 
 
-*Defined in [api.ts:472](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L472)*
+*Defined in [api.ts:472](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L472)*
 
 
 *__name__*: getValues
@@ -626,7 +626,7 @@ ___
 
 
 
-*Defined in [api.ts:541](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/api.ts#L541)*
+*Defined in [api.ts:541](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/7221d95/src/api.ts#L541)*
 
 
 *__name__*: update
