@@ -12,7 +12,7 @@
 
 **●  expiry_date**:  *`number`* 
 
-*Defined in [utils/type_alias.ts:124](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L124)*
+*Defined in [utils/type_alias.ts:124](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L124)*
 
 
 

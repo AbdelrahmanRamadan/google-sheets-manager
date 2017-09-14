@@ -25,7 +25,7 @@
 
 **●  GOOGLE_AUTH_SCOPES**:  *`string`[]*  =  ["https://www.googleapis.com/auth/spreadsheets"]
 
-*Defined in [auth-classes/service-account.ts:14](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/auth-classes/service-account.ts#L14)*
+*Defined in [auth-classes/service-account.ts:14](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/auth-classes/service-account.ts#L14)*
 
 
 *__see__*: [googleapis scopes](https://developers.google.com/identity/protocols/googlescopes#sheetsv4)

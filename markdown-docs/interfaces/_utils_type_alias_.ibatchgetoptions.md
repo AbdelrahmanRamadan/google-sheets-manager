@@ -12,7 +12,7 @@
 
 **●  dateTimeRenderOption**:  *"SERIAL_NUMBER"⎮"FORMATTED_STRING"* 
 
-*Defined in [utils/type_alias.ts:90](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L90)*
+*Defined in [utils/type_alias.ts:90](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L90)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  fields**:  *`undefined`⎮`string`* 
 
-*Defined in [utils/type_alias.ts:91](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L91)*
+*Defined in [utils/type_alias.ts:91](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L91)*
 
 
 
@@ -40,7 +40,7 @@ ___
 
 **●  majorDimension**:  *"ROWS"⎮"COLUMNS"* 
 
-*Defined in [utils/type_alias.ts:88](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L88)*
+*Defined in [utils/type_alias.ts:88](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L88)*
 
 
 
@@ -54,7 +54,7 @@ ___
 
 **●  valueRenderOption**:  *"FORMATTED_VALUE"⎮"UNFORMATTED_VALUE"⎮"FORMULA"* 
 
-*Defined in [utils/type_alias.ts:89](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L89)*
+*Defined in [utils/type_alias.ts:89](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L89)*
 
 
 

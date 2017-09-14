@@ -1,23 +1,24 @@
 {
   "name": "google-sheets-manager",
   "version": "1.0.0",
-  "description": "Google Sheets API v4 wrapper Node.js module for reading and manipulating Google Spreadsheets.",
+  "description": "Google Sheets API v4 abstracted TypeScript modules for reading and manipulating Google Spreadsheets.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "mocha --timeout 15000 --reporter spec --compilers ts:ts-node/register 'tests/**/*.test.ts'",
     "lint": "tslint {src,tests}/**/*.ts --format stylish",
-    "prepare": "npm run lint && npm run build && npm run test && docs",
+    "prepare": "npm run lint && npm run build && npm run test && npm run docs",
     "docs": "npm run html-docs && npm run markdown-docs",
-    "html-docs": "typedoc --out ./docs ./src --mode modules --module commonjs",
-    "markdown-docs": "typedoc --theme markdown --out ./markdown-docs ./src --mode modules --module commonjs"
+    "html-docs": "typedoc --out ./html-docs ./src --mode modules --module commonjs --target ES5 --readme none --hideGenerator",
+    "markdown-docs": "typedoc --theme markdown --out ./markdown-docs ./src --mode modules --module commonjs --target ES5 --hideGenerator"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AbdelrahmanRamadan/google-sheets-manager.git"
   },
   "author": "Abdelrahman Ramadan",
+  "email": "abdelrahman0xff@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AbdelrahmanRamadan/google-sheets-manager/issues"

@@ -12,7 +12,7 @@
 
 **●  endRow**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:12](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L12)*
+*Defined in [utils/type_alias.ts:12](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L12)*
 
 
 
@@ -26,7 +26,7 @@ ___
 
 **●  startRow**:  *`undefined`⎮`number`* 
 
-*Defined in [utils/type_alias.ts:11](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/utils/type_alias.ts#L11)*
+*Defined in [utils/type_alias.ts:11](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L11)*
 
 
 

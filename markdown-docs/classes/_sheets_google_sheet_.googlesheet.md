@@ -56,7 +56,7 @@
 
 *Overrides [Common](_common_.common.md).[constructor](_common_.common.md#constructor)*
 
-*Defined in [sheets/google-sheet.ts:13](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/sheets/google-sheet.ts#L13)*
+*Defined in [sheets/google-sheet.ts:13](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/sheets/google-sheet.ts#L13)*
 
 
 
@@ -86,7 +86,7 @@
 
 *Inherited from [Common](_common_.common.md).[api](_common_.common.md#api)*
 
-*Defined in [common.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/common.ts#L18)*
+*Defined in [common.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/common.ts#L18)*
 
 
 
@@ -102,7 +102,7 @@ ___
 
 *Inherited from [Common](_common_.common.md).[colIndex](_common_.common.md#colindex)*
 
-*Defined in [common.ts:16](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/common.ts#L16)*
+*Defined in [common.ts:16](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/common.ts#L16)*
 
 
 
@@ -118,7 +118,7 @@ ___
 
 *Inherited from [Common](_common_.common.md).[dimension](_common_.common.md#dimension)*
 
-*Defined in [common.ts:17](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/common.ts#L17)*
+*Defined in [common.ts:17](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/common.ts#L17)*
 
 
 
@@ -134,7 +134,7 @@ ___
 
 *Inherited from [Common](_common_.common.md).[rowIndex](_common_.common.md#rowindex)*
 
-*Defined in [common.ts:24](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/common.ts#L24)*
+*Defined in [common.ts:24](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/common.ts#L24)*
 
 
 
@@ -150,7 +150,7 @@ ___
 
 *Overrides [Common](_common_.common.md).[sheetId](_common_.common.md#sheetid)*
 
-*Defined in [sheets/google-sheet.ts:14](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/sheets/google-sheet.ts#L14)*
+*Defined in [sheets/google-sheet.ts:14](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/sheets/google-sheet.ts#L14)*
 
 
 
@@ -166,7 +166,7 @@ ___
 
 *Overrides [Common](_common_.common.md).[spreadsheetId](_common_.common.md#spreadsheetid)*
 
-*Defined in [sheets/google-sheet.ts:14](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/sheets/google-sheet.ts#L14)*
+*Defined in [sheets/google-sheet.ts:14](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/sheets/google-sheet.ts#L14)*
 
 
 
@@ -185,7 +185,7 @@ ___
 
 
 
-*Defined in [sheets/google-sheet.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/sheets/google-sheet.ts#L18)*
+*Defined in [sheets/google-sheet.ts:18](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/sheets/google-sheet.ts#L18)*
 
 
 
@@ -217,7 +217,7 @@ ___
 
 
 
-*Defined in [sheets/google-sheet.ts:67](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/sheets/google-sheet.ts#L67)*
+*Defined in [sheets/google-sheet.ts:67](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/sheets/google-sheet.ts#L67)*
 
 
 
@@ -251,7 +251,7 @@ ___
 
 *Inherited from [Common](_common_.common.md).[getInfo](_common_.common.md#getinfo)*
 
-*Defined in [common.ts:69](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/common.ts#L69)*
+*Defined in [common.ts:69](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/common.ts#L69)*
 
 
 
@@ -284,7 +284,7 @@ ___
 
 *Inherited from [Common](_common_.common.md).[getSheetTitle](_common_.common.md#getsheettitle)*
 
-*Defined in [common.ts:44](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/common.ts#L44)*
+*Defined in [common.ts:44](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/common.ts#L44)*
 
 
 
@@ -315,7 +315,7 @@ ___
 
 
 
-*Defined in [sheets/google-sheet.ts:108](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/sheets/google-sheet.ts#L108)*
+*Defined in [sheets/google-sheet.ts:108](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/sheets/google-sheet.ts#L108)*
 
 
 
@@ -348,7 +348,7 @@ ___
 
 
 
-*Defined in [sheets/google-sheet.ts:164](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/06574e0/src/sheets/google-sheet.ts#L164)*
+*Defined in [sheets/google-sheet.ts:164](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/sheets/google-sheet.ts#L164)*
 
 
 
