@@ -29,55 +29,55 @@ var authClass = new ServiceAccount(creds);
 var sheetAPI = new GoogleSheet(authClass, GOOGLE_SPREADSHEETID, GOOGLE_SHEETID);
 
 var defaultCallback = (err, res) => {
-  if (err) {
-    throw err;
-  }
-  console.log(res);
+	if (err) {
+		throw err;
+	}
+	console.log(res);
 };
 
 sheetAPI.getData(defaultCallback);
 
 sheetAPI.getData({
-  range: {
-    startRow: 2,
-    startCol: 1,
-    endRow: 3,
-    endCol: 2,
-  },
-  majorDimension: "COLUMNS",
+	range: {
+		startRow: 2,
+		startCol: 1,
+		endRow: 3,
+		endCol: 2,
+	},
+	majorDimension: "COLUMNS",
 }, defaultCallback);
 
 sheetAPI.getBatchData(defaultCallback);
 
 sheetAPI.getBatchData({
-  ranges: [{
-    startRow: 2,
-    startCol: 1,
-    endRow: 3,
-    endCol: 2,
-  }, {
-    startRow:2,
-    endCol: 1,
-  }],
-  majorDimension: "COLUMNS",
+	ranges: [{
+		startRow: 2,
+		startCol: 1,
+		endRow: 3,
+		endCol: 2,
+	}, {
+		startRow:2,
+		endCol: 1,
+	}],
+	majorDimension: "COLUMNS",
 }, defaultCallback);
 
 sheetAPI.setData([
-  ['1', '2'],
-  ['3', '4'],
+	['1', '2'],
+	['3', '4'],
 ], defaultCallback);
 
 sheetAPI.setData([
-  ['1', '2'],
-  ['3', '4'],
+	['1', '2'],
+	['3', '4'],
 ], {
-  range: {
-    startRow: 2,
-    startCol: 1,
-    endRow: 3,
-    endCol: 2,
-  },
-  majorDimension: "COLUMNS",
+	range: {
+		startRow: 2,
+		startCol: 1,
+		endRow: 3,
+		endCol: 2,
+	},
+	majorDimension: "COLUMNS",
 }, defaultCallback);
 
 ```
@@ -95,19 +95,19 @@ __Setup Instructions__
 1. Go to the [Google Developers Console](https://console.developers.google.com/project)
 2. Select your project or create a new one (and then select it)
 3. Enable the Drive API for your project
-  - In the sidebar on the left, expand __APIs & auth__ > __APIs__
-  - Search for "drive"
-  - Click on "Drive API"
-  - click the blue "Enable API" button
+	- In the sidebar on the left, expand __APIs & auth__ > __APIs__
+	- Search for "drive"
+	- Click on "Drive API"
+	- click the blue "Enable API" button
 4. Create a service account for your project
-  - In the sidebar on the left, expand __APIs & auth__ > __Credentials__
-  - Click blue "Add credentials" button
-  - Select the "Service account" option
-  - Select "Furnish a new private key" checkbox
-  - Select the "JSON" key type option
-  - Click blue "Create" button
-  - your JSON key file is generated and downloaded to your machine (__it is the only copy!__)
-  - note your service account's email address (also available in the JSON key file)
+	- In the sidebar on the left, expand __APIs & auth__ > __Credentials__
+	- Click blue "Add credentials" button
+	- Select the "Service account" option
+	- Select "Furnish a new private key" checkbox
+	- Select the "JSON" key type option
+	- Click blue "Create" button
+	- your JSON key file is generated and downloaded to your machine (__it is the only copy!__)
+	- note your service account's email address (also available in the JSON key file)
 5. Share the doc (or docs) with your service account using the email noted above
 
 -----------------------------------------
@@ -160,12 +160,12 @@ __Properties:__
 
 Loads data from google sheet.
 - `options` object (optional)
-  - `range` (optional) - The range of the data to be fetched, if not provided then the function returns all the data in the sheet.
-  	- `startRow` number (optional) - default: 1
-  	- `startCol`number (optional) - default: 1
-  	- `endRow` number (optional) - default: MAX_ROW
-  	- `endCol` number (optional) - default: MAX_COL
-  - `majorDimension` string - enum('ROWS' || 'COLUMNS') how the loaded data should be represented, either array of rows or array of columns, default values is 'ROWS'
+	- `range` (optional) - The range of the data to be fetched, if not provided then the function returns all the data in the sheet.
+		- `startRow` number (optional) - default: 1
+		- `startCol`number (optional) - default: 1
+		- `endRow` number (optional) - default: MAX_ROW
+		- `endCol` number (optional) - default: MAX_COL
+	- `majorDimension` string - enum('ROWS' || 'COLUMNS') how the loaded data should be represented, either array of rows or array of columns, default values is 'ROWS'
 - `callback` (err, res)
 	- `res` two dimentional array containing the range data
 
@@ -175,12 +175,12 @@ Loads data from google sheet.
 
 Loads data from multiple ranges in a single request from google sheet.
 - `options` object (optional)
-  - `ranges` object Array (optional) - The ranges of the data to be fetched, if not provided then the function returns all the data in the sheet.
-  	- `startRow` number (optional) - default: 1
-  	- `startCol`number (optional) - default: 1
-  	- `endRow` number (optional) - default: MAX_ROW
-  	- `endCol` number (optional) - default: MAX_COL
-  - `majorDimension` string - enum('ROWS' || 'COLUMNS') how the loaded data should be represented, either array of rows or array of columns, default values is 'ROWS'
+	- `ranges` object Array (optional) - The ranges of the data to be fetched, if not provided then the function returns all the data in the sheet.
+		- `startRow` number (optional) - default: 1
+		- `startCol`number (optional) - default: 1
+		- `endRow` number (optional) - default: MAX_ROW
+		- `endCol` number (optional) - default: MAX_COL
+	- `majorDimension` string - enum('ROWS' || 'COLUMNS') how the loaded data should be represented, either array of rows or array of columns, default values is 'ROWS'
 - `callback` (err, res)
 	- `res` two dimentional array containing the range data
 
@@ -191,12 +191,12 @@ Loads data from multiple ranges in a single request from google sheet.
 set data in google sheet.
 - `data` (string | null | undefined) 2D array - representing data to be updated to the google sheet
 - `options` object (optional)
-  - `range` object (optional) - The range of the data to be updated, if not provided then the function apply the data to the first range that fits in the sheet.
-  	- `startRow` number (optional) - default: 1
-  	- `startCol`number (optional) - default: 1
-  	- `endRow` number (optional) - default: MAX_ROW
-  	- `endCol` number (optional) - default: MAX_COL
-  - `majorDimension` string - enum('ROWS' || 'COLUMNS') how the provided data are represented, either array of rows or array of columns, default values is 'ROWS'
+	- `range` object (optional) - The range of the data to be updated, if not provided then the function apply the data to the first range that fits in the sheet.
+		- `startRow` number (optional) - default: 1
+		- `startCol`number (optional) - default: 1
+		- `endRow` number (optional) - default: MAX_ROW
+		- `endCol` number (optional) - default: MAX_COL
+	- `majorDimension` string - enum('ROWS' || 'COLUMNS') how the provided data are represented, either array of rows or array of columns, default values is 'ROWS'
 - `callback` (err, res)
 	- `res` contains google reponse with the updated cells info
 
@@ -207,12 +207,12 @@ set data in google sheet.
 set data in multiple ranges in a single request from google sheet.
 - `data` (string | null | undefined) 3D array - representing array of data to be updated to the google sheet
 - `options` object (optional)
-  - `ranges` object Array (optional) - The ranges of the data to be updated, if not provided then the function apply the data to the first range that fits in the sheet, If ranges provided then it must be of the same size as data array first dimension.
-  	- `startRow` number (optional) - default: 1
-  	- `startCol`number (optional) - default: 1
-  	- `endRow` number (optional) - default: MAX_ROW
-  	- `endCol` number (optional) - default: MAX_COL
-  - `majorDimension` string - enum('ROWS' || 'COLUMNS') how the provided data are represented, either array of rows or array of columns, default values is 'ROWS'
+	- `ranges` object Array (optional) - The ranges of the data to be updated, if not provided then the function apply the data to the first range that fits in the sheet, If ranges provided then it must be of the same size as data array first dimension.
+		- `startRow` number (optional) - default: 1
+		- `startCol`number (optional) - default: 1
+		- `endRow` number (optional) - default: MAX_ROW
+		- `endCol` number (optional) - default: MAX_COL
+	- `majorDimension` string - enum('ROWS' || 'COLUMNS') how the provided data are represented, either array of rows or array of columns, default values is 'ROWS'
 - `callback` (err, res)
 	- `res` contains google reponse with the updated cells info
 
