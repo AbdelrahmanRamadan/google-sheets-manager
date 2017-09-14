@@ -1,6 +1,6 @@
 {
   "name": "google-sheets-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Sheets API v4 abstracted TypeScript modules for reading and manipulating Google Spreadsheets.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
