@@ -15,6 +15,73 @@ Modules and code components breakdown and documentation on the wiki
 
 _Simple example to show some of the things you can do._
 
+```javascript
+var googlesheets = require("google-sheets-manager");
+var creds = require("./client_secret.json");
+
+var ServiceAccount = googlesheets.ServiceAccount;
+var GoogleSheet = googlesheets.GoogleSheet;
+
+const GOOGLE_SPREADSHEETID = "1_CioU4zMQ_oYM1w5zrpCUCp0YPY8nP0piFa-Kr2YP_U";
+const GOOGLE_SHEETID = 1063280134;
+
+var authClass = new ServiceAccount(creds);
+var sheetAPI = new GoogleSheet(authClass, GOOGLE_SPREADSHEETID, GOOGLE_SHEETID);
+
+var defaultCallback = (err, res) => {
+  if (err) {
+    throw err;
+  }
+  console.log(res);
+};
+
+sheetAPI.getData(defaultCallback);
+
+sheetAPI.getData({
+  range: {
+    startRow: 2,
+    startCol: 1,
+    endRow: 3,
+    endCol: 2,
+  },
+  majorDimension: "COLUMNS",
+}, defaultCallback);
+
+sheetAPI.getBatchData(defaultCallback);
+
+sheetAPI.getBatchData({
+  ranges: [{
+    startRow: 2,
+    startCol: 1,
+    endRow: 3,
+    endCol: 2,
+  }, {
+    startRow:2,
+    endCol: 1,
+  }],
+  majorDimension: "COLUMNS",
+}, defaultCallback);
+
+sheetAPI.setData([
+  ['1', '2'],
+  ['3', '4'],
+], defaultCallback);
+
+sheetAPI.setData([
+  ['1', '2'],
+  ['3', '4'],
+], {
+  range: {
+    startRow: 2,
+    startCol: 1,
+    endRow: 3,
+    endCol: 2,
+  },
+  majorDimension: "COLUMNS",
+}, defaultCallback);
+
+```
+
 ## Authentication
 
 ### Service Account (recommended method)
@@ -66,7 +133,7 @@ Wrapper class for simplifing authentication process using service account method
 ### `new ServiceAccount(creds, [googleAuthScopes])`
 
 - `creds` object - service account credentials loaded as json object _(see setup instruction above)_
-- `googleAuthScopes` string[] - [google scopes](https://developers.google.com/identity/protocols/googlescopes) which you want to give the api access on, default value is readonly scope
+- `googleAuthScopes` string[] - [google scopes](https://developers.google.com/identity/protocols/googlescopes) which you want to give the api access on, default value is scopes (["https://www.googleapis.com/auth/spreadsheets"])
 
 ----------------------------------
 

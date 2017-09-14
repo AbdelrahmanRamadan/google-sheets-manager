@@ -2,3 +2,4 @@ dist
 html-docs
 .npmignore
 node_modules
+tests/client_secret.ts
