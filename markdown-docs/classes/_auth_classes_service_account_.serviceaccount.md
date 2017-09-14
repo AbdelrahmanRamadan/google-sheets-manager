@@ -50,7 +50,7 @@
 
 
 
-*Defined in [auth-classes/service-account.ts:41](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/auth-classes/service-account.ts#L41)*
+*Defined in [auth-classes/service-account.ts:41](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/auth-classes/service-account.ts#L41)*
 
 
 
@@ -80,7 +80,7 @@
 getauthClient(): `any`
 
 
-*Defined in [auth-classes/service-account.ts:69](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/auth-classes/service-account.ts#L69)*
+*Defined in [auth-classes/service-account.ts:69](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/auth-classes/service-account.ts#L69)*
 
 
 *__name__*: authClient
@@ -119,7 +119,7 @@ ___
 
 *Implementation of [IAuthClass](../interfaces/_auth_classes_auth_class_.iauthclass.md).[authorize](../interfaces/_auth_classes_auth_class_.iauthclass.md#authorize)*
 
-*Defined in [auth-classes/service-account.ts:90](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/auth-classes/service-account.ts#L90)*
+*Defined in [auth-classes/service-account.ts:90](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/auth-classes/service-account.ts#L90)*
 
 
 *__name__*: authorize
@@ -170,7 +170,7 @@ ___
 
 *Implementation of [IAuthClass](../interfaces/_auth_classes_auth_class_.iauthclass.md).[ensureValid](../interfaces/_auth_classes_auth_class_.iauthclass.md#ensurevalid)*
 
-*Defined in [auth-classes/service-account.ts:136](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/auth-classes/service-account.ts#L136)*
+*Defined in [auth-classes/service-account.ts:136](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/auth-classes/service-account.ts#L136)*
 
 
 *__name__*: ensureValid
@@ -217,7 +217,7 @@ ___
 
 
 
-*Defined in [auth-classes/service-account.ts:116](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/auth-classes/service-account.ts#L116)*
+*Defined in [auth-classes/service-account.ts:116](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/auth-classes/service-account.ts#L116)*
 
 
 *__name__*: isAuthorized

@@ -8,7 +8,7 @@
     "build": "tsc",
     "test": "mocha --timeout 15000 --reporter spec --compilers ts:ts-node/register 'tests/**/*.test.ts'",
     "lint": "tslint {src,tests}/**/*.ts --format stylish",
-    "prepare": "npm run lint && npm run build && npm run test && npm run docs",
+    "ready": "npm run lint && npm run build && npm run test && npm run docs",
     "docs": "npm run html-docs && npm run markdown-docs",
     "html-docs": "typedoc --out ./html-docs ./src --mode modules --module commonjs --target ES5 --readme none --hideGenerator",
     "markdown-docs": "typedoc --theme markdown --out ./markdown-docs ./src --mode modules --module commonjs --target ES5 --hideGenerator"

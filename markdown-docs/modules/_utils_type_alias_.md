@@ -46,14 +46,14 @@
 
 **Τ Callback**:  *function* 
 
-*Defined in [utils/type_alias.ts:2](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L2)*
+*Defined in [utils/type_alias.ts:2](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L2)*
 
 
 #### Type declaration
 (err: *[NonStrict](_utils_type_alias_.md#nonstrict)`Error`*, res?: *[NonStrict](_utils_type_alias_.md#nonstrict)`T`*): `void`
 
 
-*Defined in [utils/type_alias.ts:2](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L2)*
+*Defined in [utils/type_alias.ts:2](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L2)*
 
 
 
@@ -83,7 +83,7 @@ ___
 
 **Τ NonStrict**:  *`T`⎮`null`⎮`undefined`* 
 
-*Defined in [utils/type_alias.ts:1](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L1)*
+*Defined in [utils/type_alias.ts:1](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L1)*
 
 
 
@@ -97,7 +97,7 @@ ___
 
 **Τ OrArray**:  *`T`⎮`T`[]* 
 
-*Defined in [utils/type_alias.ts:3](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/type_alias.ts#L3)*
+*Defined in [utils/type_alias.ts:3](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/type_alias.ts#L3)*
 
 
 

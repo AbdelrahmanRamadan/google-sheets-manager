@@ -42,7 +42,7 @@
 
 
 
-*Defined in [utils/errors.ts:3](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/d86bb83/src/utils/errors.ts#L3)*
+*Defined in [utils/errors.ts:3](https://github.com/AbdelrahmanRamadan/google-sheets-manager/blob/8df96f0/src/utils/errors.ts#L3)*
 
 
 
